@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <script>
+        let calc = alert("Seja bem vindo(a) a sua calculadora online!")
+        let n1 = Number(prompt("Digite um número: "))
+        let operador = (prompt("Operador: "))
+        let n2 = Number(prompt("Digite outro número: "))
+        
+        let resultado = 0
+
+        if (operador == "+") {
+            resultado = n1 + n2;
+        } else if (operador == "-") {
+            resultado = n1 - n2;
+        } else if (operador == "*") {
+            resultado = n1 * n2;
+        } else {
+            resultado = n1 / n2;
+        }
+        alert(`O resultado da sua operação é ${resultado}.`)
+
+
+    </script> 
+
+</body>
+</html>

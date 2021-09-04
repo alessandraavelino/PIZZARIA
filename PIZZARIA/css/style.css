@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logos img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.navbar {
+    background-color: red;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 12vh;
+    font-weight:600;
+}
+
+.nomepizzaria {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content:space-around;
+    text-emphasis-color: none;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.opcoes a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: yellow;
+}
+.foto-fundo img {
+    width: 100%;
+}
+
+
+.itens img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    padding: 20px;
+
+}
+
+.apresentacao {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    align-self: center;
+}
+.itens {
+    padding: 20px; 
+    position: absolute; 
+    margin-left: 450px;
+
+
+
+}
+
+.refri {
+    float: left;
+    text-align: center; 
+    max-zoom: 10;
+    
+}
+
+.pizza-calabresa {
+    float: right;
+    text-align: center;
+
+}
+
+.crvj {
+    float: left; 
+    text-align: center;
+}
+
+.pesquisa {
+    width: 400px;
+    height: 40px;
+    margin: 200px auto; 
+    margin-top: 250px;
+    align-items: center;
+    padding: 20px;
+}
+
+#texto {
+    width: 350px;
+    height: 40px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#texto:focus{
+    border: solid 2px red;
+}
+
+.campo-pesquisa {
+    background-color:rgb(235, 235, 235);
+}
+
+.tittle h3{
+    text-align: center; 
+    margin-top: -170px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    padding-bottom: 30px; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.tittle p {
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.produtos img {
+    width: 250px;
+    height: 250px;
+}
+
+.pizzas-cardapio img {
+    height: 300px;
+    width: 320px;
+    margin-left: 20px;
+    
+    
+}
+
+.pizza-1 {
+    float: left;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+.pizza-2 {
+    float: left;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.pizza-3 {
+    
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+button {
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.itens-bebidas {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 70px;
+    width: 80%;
+    margin-left: 100px;
+
+
+}
+.itens-bebidas img { 
+    float: right;
+
+}
+
+.slide {
+    margin-top: 20px;
+
+}
+
+.slide h3 {
+    margin-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    display: flex;
+    text-align: center;
+    margin-left: 530px;
+    padding-bottom: 20px;
+    
+}
+
+.slide p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: orange;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: 600;
+
+}
+.localizacao h3 {
+    margin-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: red;
+    text-transform:uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.localizacao p {
+    color: orange;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mapa {
+    margin-top: 50px;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 350px;
+}
+
+.localizacao img{
+    padding-left: 600px;
+    padding-bottom: 50px;
+}
+
+::-webkit-scrllbar
+::-webkit-scrollbar-thumb
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    background: orange;
+}
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+
+
+.rodape {
+    background: rgb(235, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+}
+.rodape img {
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+}
